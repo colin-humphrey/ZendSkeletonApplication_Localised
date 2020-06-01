@@ -63,4 +63,5 @@ ping -c 4 zend2-localised
 
 ### Navigate to
 
-http://zend2-localised/ 🎉
+http://zend2-localised/en-gb 🎉
+http://zend2-localised/fr-fr 🎉
