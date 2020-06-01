@@ -1,0 +1,6 @@
+{
+  "fields": {
+      "title":"Header title",
+      "copy":"This is some text that appears in the header section."
+  }
+}

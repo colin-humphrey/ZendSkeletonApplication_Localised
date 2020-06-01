@@ -1,0 +1,56 @@
+<?php
+    echo $this->doctype();
+    $locale = $this->locale;
+?>
+
+<!--[if lte IE 8]>
+<html lang="<?php echo $locale; ?>">
+<![endif]-->
+
+<!--[if gte IE 9]>
+    <!-->
+<html lang="<?php echo $locale; ?>">
+<!--<![endif]-->
+
+        <head>
+            <?php echo $this->headTitle(); ?>
+            
+            <!-- Meta partial here -->
+            <meta charset="UTF-8">
+            <?php
+                // Meta not included for now
+            ?>
+        </head>
+
+	<body>
+            <div>
+                <h1>zend2-localised</h1>
+                
+                <!-- Header partial here -->
+                <header>                    
+                <?php
+                    echo $this->partial("header", array('header'=>$this->json['header']));
+                ?>                    
+                </header>
+                
+                <!-- Nav partial here -->
+                <nav>
+                <?php
+                    echo $this->partial("navigation", array('navigation'=>$this->json['navigation']));
+                ?>                                    
+                </nav>
+                <div>
+                    <?php
+                        echo $this->content;
+                    ?>
+                </div>
+            </div>
+            
+            <!-- Footer partial here -->
+            <footer>
+                <?php
+                    echo $this->partial("footer", array('footer'=>$this->json['footer']));
+                ?>                                    
+            </footer>
+	</body>
+</html>

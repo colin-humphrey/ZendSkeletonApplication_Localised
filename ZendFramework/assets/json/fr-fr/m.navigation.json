@@ -1,0 +1,10 @@
+{
+  "fields": {
+      "navigation":
+        {
+            "home":"/",
+            "about":"#about",
+            "terms-and-conditions":"#terms-conditions"
+        } 
+  }
+}

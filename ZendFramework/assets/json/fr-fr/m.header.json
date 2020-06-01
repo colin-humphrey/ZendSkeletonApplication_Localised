@@ -1,0 +1,6 @@
+{
+  "fields": {
+      "title":"titre de tête",
+      "copy":"Ceci est un texte qui apparaît dans la section d'en-tête."
+  }
+}

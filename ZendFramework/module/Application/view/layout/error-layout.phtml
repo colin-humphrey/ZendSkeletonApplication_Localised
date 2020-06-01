@@ -1,0 +1,43 @@
+<?php
+    echo $this->doctype();
+    $locale = $this->locale;
+?>
+
+<!--[if lte IE 8]>
+<html lang="<?php echo $locale; ?>">
+<![endif]-->
+
+<!--[if gte IE 9]>
+    <!-->
+<html lang="<?php echo $locale; ?>">
+<!--<![endif]-->
+
+        <head>
+            <?php echo $this->headTitle(); ?>
+        </head>
+
+	<body>
+            <div>
+                <!-- Header partial here -->
+                <header></header>
+                <h1>Zend Error</h1>                
+                <!-- Nav partial here -->
+                <nav></nav>
+                <div>
+                    <h2>
+                        <?php  ?>
+                    </h2>
+                    <p>
+                        <?php  ?> 
+                        <a href="">
+                            
+                        </a>
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Footer partial here -->
+            <footer>
+            </footer>
+	</body>
+</html>
